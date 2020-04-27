@@ -13,4 +13,15 @@ function countBs(str1) {
     // return count
     }
 
-countBs(string1)    
+countBs(string1) 
+   
+function countChar(string,letter) {
+    count = 0;
+    for(let i = 0; i<string.length;i++) {
+        if(string[i] === letter) {
+            count=count+1;
+        }
+    }
+    console.log(count)   
+}
+countChar(string2,letter)
