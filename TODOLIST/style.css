@@ -25,7 +25,11 @@ body {
   ul li:hover {
     background: #ddd;
   }
- 
+  ul li.checked {
+    background: aqua;
+    color: black;
+    text-decoration: line-through;
+  }
   ul li.checked::before {
     content: '';
     position: absolute;
