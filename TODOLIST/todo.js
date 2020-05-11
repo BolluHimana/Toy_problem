@@ -44,3 +44,7 @@ function newElement() {
     }
   }
 }
+function removeAll(){
+  var lst = document.getElementsByTagName("ul");
+    lst[0].innerHTML = "";
+}

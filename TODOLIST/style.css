@@ -88,3 +88,14 @@ body {
     background-color: gray;
     color: white;
   }
+  #clear{
+    width: 30%;
+    font-size: xx-large;
+    margin: 30px 35%;
+    background-color: palevioletred;
+    color: black;
+  }
+  #clear:hover{
+    background-color: palevioletred;
+    color: black;
+  }
